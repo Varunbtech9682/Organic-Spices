@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Poppins&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 10px 50px;
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, .5);
+    background-color: black;
+}
+
+
+
+.navbar .navbar-brand{
+    color: rgb(42, 113, 42) !important;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+#navbarSupportedContent a{
+    color: #fff
+    border-bottom:  2px solid transparent;
+}
+
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid rgb(42, 113, 42);
+}
+
+
+#navbarSupportedContent button{
+    background: rgb(42, 113, 42);
+    width: 85px;
+    border-radius: 7px;
+}
+
+.btn2{
+    margin-left: 5px;
+    background: black;
+    width: 85px;
+
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home{
+    background:  linear-gradient(rgba(0, 0, 0, .3), rgba(0,0,0,.4)), url("https://hl.azurestandard.com/healthy-living/wp-content/uploads/2018/01/spices-768x512.jpg");
+
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+#home h1{
+    font-size: 80px;
+    color: aqua;
+    letter-spacing: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0px 1px 0px #ccc,
+                 0px 2px 0px #ccc,
+                 0px 3px 0px #ccc,
+                 0px 4px 0px #ccc,
+                 0px 5px 0px #ccc,
+                 0px 6px 0px #ccc,
+                 0px 7px 0px #ccc,
+}
+
+#home p{
+    color: #fff;
+    font-size: 18px;
+}
+
+#home .input-group{
+    width: 40%;
+    height: 45px;
+}
+
+.signin{
+    background: green  !important;
+    color: white !important;
+    box-shadow:  2px 4px 5px rgba(0, 0, 0, .3);
+}
+
+
+#about{
+    background: linear-gradient(to bottom, #0E0300, #007F00);
+}
+
+#about h1{
+    color: #fff ;
+    font-weight: 800;
+    font-size: 50px;
+
+}
+
+#about .para{
+    color: #c6ecc6;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#product{
+    background: linear-gradient(to bottom, #007E00, #ffb6b6);
+}
+
+#product h1{
+    color: #ffffff !important;
+    font-size: 50px;
+    font-weight: 800;
+
+}
+
+#product img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 15px;
+    opacity: 100%;
+}
+
+.card{
+    width: 250px;
+    height: 300px;
+    background-color: #e5e5e537 !important;
+    border: None !important;
+    box-shadow: 15px 20px 20px rgba(0, 0, 0, .3),
+                inset 4px 4px 10px rgb(116, 4, 4);
+    border-radius: 20px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+    transition: .2s;
+    /* transition: box-shadow 0.3s ease; */
+}
+
+.card:hover{
+    box-shadow: inset 10px 10px 10px rgba(0, 0, 0, .3),
+                inset -4px -4px 20px rgba(13, 13, 13, 0.203);
+    transition: .2s;
+    /* background-color: rgb(185, 41, 154); */
+}
+
+#contact{
+    background: linear-gradient(to bottom, #ffb6b6, #111111);
+}
+
+.box{
+    width: 80% !important;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.088), #292222);
+    margin-top: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    color: #007F00;
+}
+
+#contact img{
+    margin-top: 50px;   
+    /* margin-left: 50px; */
+    margin-bottom: 50px;
+    /* border-radius: 10px; */
+}
+
+#contact h1{
+    margin: 20px 50px;
+}
+
+#contact input{
+    margin: 10px 0px; 
+}
+
+#contact textarea{
+    margin: 10px 0px;
+}
+
+#contact button{
+    margin: 10px 0px;
+}
+
+
+footer{
+    width: 100%;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.741);
+    margin-top: -30px;
+    text-align: center;
+    color: white;
+    padding: 3px;
+}
